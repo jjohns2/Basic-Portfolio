@@ -3,24 +3,55 @@
 }
 
 .topbar {
+    position: relative;
     background: #ffffff;
     border-color: #cccccc;
     border-style: solid;
     border-width: 0px 0px 2px 0px;
     height: 100px;
     margin-bottom: 20px;
+    width: 100%;
 }
 
+.navbar {
+    position: absolute;
+    width: 960px;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;    
+    font-size: 16px;
+    top: 0px;
+}
 #myname {
     background: #4aaaaa;
     float: left;
     padding: 10px;
     color: white;
+    margin-top: 22px;
+}
 
+ul {
+    list-style-type: none;
+    color: #8f8f8f;
+}
+
+li {
+    margin: 0;
+    padding: 10px;
+    display: inline;
+    border-right: solid 1px;
+    border-color: #f0efef;
+}
+
+li:last-child {
+    border-right: none;
 }
 
 nav {
     float: right;
+    margin-top: 35px;
 }
 
 h1,
@@ -28,6 +59,10 @@ h2,
 h3 {
     font-family: Georgia, Times, 'Times New Roman', serif;
     font-size: 24px;
+}
+
+h2 {
+    color: #4aaaaa;
 }
 
 body {
@@ -60,21 +95,63 @@ section {
 
 
 footer {
+    position: fixed;
     clear: both;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 30px;
     background: #666666;
     color: white;
     margin: 0;
     width: 100%;
-}
-
-#footcolorblock {
-    background: #4aaaaa;
-    height: 10px;
-
+    bottom: 0;
+    left: 0;
+    border-top: 7px solid #4aaaaa;
 }
 
 hr {
     border-width: 2px;
+}
+
+input, 
+textarea {
+    width: 900px;
+    line-height: 24px;
+    color: #8f8f8f;
+}
+
+#message {
+    padding-left:0;
+    padding-top:0;
+    padding-bottom:0.4em;
+    padding-right: 0.4em;
+    overflow: scroll;
+}
+
+#submit {
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 18px;
+    width: 10%;
+    background: #4aaaaa;
+    color: white;
+}
+
+.formlabels {
+    padding: 0;
+    margin: 20px 0 0 0;
+    color: #8f8f8f;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.images {
+    position: fixed;
+float: left;
+}
+
+.contentwrapper {
+    position: relative;
+    min-height: 80%;
 }
