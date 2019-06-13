@@ -146,12 +146,36 @@ p {
     color: #8f8f8f;
 }
 
-.images {
-    position: fixed;
-float: left;
+#clear {
+    clear: both;
 }
 
-.contentwrapper {
+.imgtext {
+    background: #4aaaaa;
+    padding: 10px;
+    color: white;
+    width: 280px;
+    text-align: center;
     position: relative;
-    min-height: 80%;
+    margin-top: 220px;
+} 
+
+
+.portfolio {
+    margin: 0 auto;
+    width: 940px;
+    border-color: #dddddd;
+    background-color: #ffffff;
+    min-height: 700px;
+}
+
+td {
+    position: relative;
+    height: 300px;
+    margin: 0;
+}
+
+.portimg {
+    position: absolute;
+    height: 280px;
 }
