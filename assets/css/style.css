@@ -169,13 +169,24 @@ p {
     min-height: 700px;
 }
 
+table {
+    border-spacing: 20px;
+}
+
 td {
     position: relative;
     height: 300px;
-    margin: 0;
+    margin: 20px;
 }
 
 .portimg {
     position: absolute;
     height: 280px;
+}
+
+.bottomborder {
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    width: 900px;
 }
